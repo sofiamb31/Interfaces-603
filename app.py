@@ -11,7 +11,7 @@ st.title("Conversión de Texto a Audio")
 image = Image.open('olivia_rodrigo.jpeg')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
+    st.subheader("Esrcibe lo que quieras oir y copia el texto a continuación para escuchar.")
 
 
 try:
@@ -19,7 +19,7 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
+st.subheader("Olivia Rodrigo")
 st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
          ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
          ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
