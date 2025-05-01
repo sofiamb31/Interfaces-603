@@ -26,7 +26,7 @@ st.write('Olivia Rodrigo is an American singer-songwriter and actress who rose t
         
         )
            
-st.markdown(f"Quieres escuchar? esta información en inglés?, copia el texto")
+st.markdown(f"Quieres escuchar esta información en inglés?, copia el texto y selecciona el lenguaje inglés")
 text = st.text_area("Ingrese El texto a escuchar.")
 
 tld='com'
