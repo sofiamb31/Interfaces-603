@@ -11,7 +11,7 @@ st.title("Conversión de Texto a Audio")
 image = Image.open('olivia_rodrigo.jpeg')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Esrcibe lo que quieras oir y copia el texto a continuación para escuchar.")
+    st.subheader("Esrcibe lo que quieras oir o copia el texto a continuación para escuchar.")
 
 
 try:
