@@ -20,16 +20,13 @@ except:
     pass
 
 st.subheader("Olivia Rodrigo")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
+st.write('Olivia Rodrigo is an American singer-songwriter and actress who rose to global fame in early 2021 with the release of her debut single "drivers license," which quickly became a cultural phenomenon and debuted at number one on the Billboard Hot 100. Building on that momentum, she released her first studio album, SOUR, in May 2021, which included other popular tracks like "deja vu" and "good 4 u. '
          '  '
-         ' Franz Kafka.'
+    
         
         )
            
-st.markdown(f"Quieres escucharlo?, copia el texto")
+st.markdown(f"Quieres escuchar? esta información en inglés?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
 
 tld='com'
