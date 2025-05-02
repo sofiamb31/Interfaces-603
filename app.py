@@ -89,4 +89,10 @@ def remove_files(n):
                 print("Deleted ", f)
 
 
+
+image = Image.open('muchoaudio.jpg')
+
+st.image(image,width=300)
+
+
 remove_files(7)
